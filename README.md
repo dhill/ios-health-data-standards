@@ -1,4 +1,4 @@
-This is a port of the Ruby-based [HealthDataStandards project](https://github.com/projectcypress/health-data-standards), which is designed to generate and consume HITSP C32, CCDA, ASTM CCR, QRDA Category I and PQRI.
+This is an iOS port of the Ruby-based [HealthDataStandards project](https://github.com/projectcypress/health-data-standards), which is designed to generate and consume HITSP C32, CCDA, ASTM CCR, QRDA Category I and PQRI.
 Currently, this port is targeted just for importing CCDA documents and modeling patient records.
 
 Environment
