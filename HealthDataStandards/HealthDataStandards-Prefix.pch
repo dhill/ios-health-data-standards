@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'HealthDataStandards' target in the 'HealthDataStandards' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

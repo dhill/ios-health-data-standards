@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24411BD1171312230030A358 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24411BD0171312230030A358 /* SenTestingKit.framework */; };
+		24411BD4171312230030A358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24746FA9170DFADF0003255B /* Foundation.framework */; };
+		24746FAA170DFADF0003255B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24746FA9170DFADF0003255B /* Foundation.framework */; };
+		24EAA7E4172ED15500322E9A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EAA7E3172ED15500322E9A /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		24EAA7E5172ED15500322E9A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EAA7E3172ED15500322E9A /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		24EAA7E8172ED16D00322E9A /* CCDAPatientImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EAA7E7172ED16D00322E9A /* CCDAPatientImporter.m */; };
+		24EAA7E9172ED16D00322E9A /* CCDAPatientImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EAA7E7172ED16D00322E9A /* CCDAPatientImporter.m */; };
+		24EAA7EC172ED17900322E9A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EAA7EB172ED17900322E9A /* libxml2.dylib */; };
+		24EAA7ED172ED17900322E9A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EAA7EB172ED17900322E9A /* libxml2.dylib */; };
+		24EAA7F4172ED1C900322E9A /* CCDAPatientImporterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EAA7F3172ED1C900322E9A /* CCDAPatientImporterTests.m */; };
+		24EAA7F6172ED1D500322E9A /* sample_ccda.xml in Resources */ = {isa = PBXBuildFile; fileRef = 24EAA7F5172ED1D500322E9A /* sample_ccda.xml */; };
+		24EAA7FF17300FDE00322E9A /* HDSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EAA7FE17300FDE00322E9A /* HDSRecord.m */; };
+		24EAA80017300FDE00322E9A /* HDSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EAA7FE17300FDE00322E9A /* HDSRecord.m */; };
+		24EAA80817305EDC00322E9A /* HL7Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EAA80717305EDC00322E9A /* HL7Helper.m */; };
+		24EAA80917305EDC00322E9A /* HL7Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EAA80717305EDC00322E9A /* HL7Helper.m */; };
+		66D1A31B1732DC2100398C4A /* HDSCodedEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A31A1732DC2100398C4A /* HDSCodedEntry.m */; };
+		66D1A31C1732DC2100398C4A /* HDSCodedEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A31A1732DC2100398C4A /* HDSCodedEntry.m */; };
+		66D1A3231733076100398C4A /* CDAAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A3221733076100398C4A /* CDAAddress.m */; };
+		66D1A3241733076100398C4A /* CDAAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A3221733076100398C4A /* CDAAddress.m */; };
+		66D1A32717340DF200398C4A /* CDAHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A32617340DF200398C4A /* CDAHelper.m */; };
+		66D1A32817340DF200398C4A /* CDAHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A32617340DF200398C4A /* CDAHelper.m */; };
+		66D1A32B1734228E00398C4A /* CDATelecom.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A32A1734228E00398C4A /* CDATelecom.m */; };
+		66D1A32C1734228E00398C4A /* CDATelecom.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A32A1734228E00398C4A /* CDATelecom.m */; };
+		66D1A3301734342200398C4A /* CDANarrativeReferenceImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A32F1734342200398C4A /* CDANarrativeReferenceImporter.m */; };
+		66D1A3311734342200398C4A /* CDANarrativeReferenceImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A32F1734342200398C4A /* CDANarrativeReferenceImporter.m */; };
+		66D1A3341734424000398C4A /* CDASectionImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A3331734424000398C4A /* CDASectionImporter.m */; };
+		66D1A3351734424000398C4A /* CDASectionImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A3331734424000398C4A /* CDASectionImporter.m */; };
+		66D1A3381734426B00398C4A /* CDAConditionImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A3371734426A00398C4A /* CDAConditionImporter.m */; };
+		66D1A3391734426B00398C4A /* CDAConditionImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A3371734426A00398C4A /* CDAConditionImporter.m */; };
+		66D1A33C17344BAD00398C4A /* CDACondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A33B17344BAC00398C4A /* CDACondition.m */; };
+		66D1A33D17344BAD00398C4A /* CDACondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A33B17344BAC00398C4A /* CDACondition.m */; };
+		66D1A34217344CBF00398C4A /* CDAEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A34117344CBF00398C4A /* CDAEntry.m */; };
+		66D1A34317344CBF00398C4A /* CDAEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A34117344CBF00398C4A /* CDAEntry.m */; };
+		66D1A34617346A8A00398C4A /* CDAEntryFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A34517346A8A00398C4A /* CDAEntryFinder.m */; };
+		66D1A34717346A8A00398C4A /* CDAEntryFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A34517346A8A00398C4A /* CDAEntryFinder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24746FA4170DFADE0003255B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		24411BCF171312230030A358 /* HealthDataStandardsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthDataStandardsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24411BD0171312230030A358 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		24746FA6170DFADF0003255B /* libHealthDataStandards.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHealthDataStandards.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		24746FA9170DFADF0003255B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24EAA7E2172ED15500322E9A /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = HealthDataStandards/GDataXMLNode.h; sourceTree = "<group>"; };
+		24EAA7E3172ED15500322E9A /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = HealthDataStandards/GDataXMLNode.m; sourceTree = "<group>"; };
+		24EAA7E6172ED16D00322E9A /* CCDAPatientImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCDAPatientImporter.h; path = HealthDataStandards/CCDAPatientImporter.h; sourceTree = SOURCE_ROOT; };
+		24EAA7E7172ED16D00322E9A /* CCDAPatientImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCDAPatientImporter.m; path = HealthDataStandards/CCDAPatientImporter.m; sourceTree = SOURCE_ROOT; };
+		24EAA7EA172ED17900322E9A /* HealthDataStandards-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HealthDataStandards-Prefix.pch"; path = "HealthDataStandards/HealthDataStandards-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		24EAA7EB172ED17900322E9A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = HealthDataStandards/libxml2.dylib; sourceTree = SOURCE_ROOT; };
+		24EAA7EE172ED1AE00322E9A /* HealthDataStandardsTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "HealthDataStandardsTests-Info.plist"; path = "HealthDataStandardsTests/HealthDataStandardsTests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		24EAA7EF172ED1AE00322E9A /* HealthDataStandardsTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HealthDataStandardsTests-Prefix.pch"; path = "HealthDataStandardsTests/HealthDataStandardsTests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		24EAA7F2172ED1C900322E9A /* CCDAPatientImporterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCDAPatientImporterTests.h; path = HealthDataStandardsTests/CCDAPatientImporterTests.h; sourceTree = SOURCE_ROOT; };
+		24EAA7F3172ED1C900322E9A /* CCDAPatientImporterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCDAPatientImporterTests.m; path = HealthDataStandardsTests/CCDAPatientImporterTests.m; sourceTree = SOURCE_ROOT; };
+		24EAA7F5172ED1D500322E9A /* sample_ccda.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = sample_ccda.xml; path = HealthDataStandardsTests/sample_ccda.xml; sourceTree = SOURCE_ROOT; };
+		24EAA7FD17300FDE00322E9A /* HDSRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDSRecord.h; sourceTree = "<group>"; };
+		24EAA7FE17300FDE00322E9A /* HDSRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDSRecord.m; sourceTree = "<group>"; };
+		24EAA80617305EDC00322E9A /* HL7Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HL7Helper.h; path = HealthDataStandards/HL7Helper.h; sourceTree = "<group>"; };
+		24EAA80717305EDC00322E9A /* HL7Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HL7Helper.m; path = HealthDataStandards/HL7Helper.m; sourceTree = "<group>"; };
+		66D1A3191732DC2100398C4A /* HDSCodedEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HDSCodedEntry.h; path = HealthDataStandards/HDSCodedEntry.h; sourceTree = "<group>"; };
+		66D1A31A1732DC2100398C4A /* HDSCodedEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HDSCodedEntry.m; path = HealthDataStandards/HDSCodedEntry.m; sourceTree = "<group>"; };
+		66D1A3211733076100398C4A /* CDAAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAAddress.h; path = HealthDataStandards/CDAAddress.h; sourceTree = "<group>"; };
+		66D1A3221733076100398C4A /* CDAAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAAddress.m; path = HealthDataStandards/CDAAddress.m; sourceTree = "<group>"; };
+		66D1A32517340DF200398C4A /* CDAHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAHelper.h; path = HealthDataStandards/CDAHelper.h; sourceTree = "<group>"; };
+		66D1A32617340DF200398C4A /* CDAHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAHelper.m; path = HealthDataStandards/CDAHelper.m; sourceTree = "<group>"; };
+		66D1A3291734228E00398C4A /* CDATelecom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDATelecom.h; sourceTree = "<group>"; };
+		66D1A32A1734228E00398C4A /* CDATelecom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDATelecom.m; sourceTree = "<group>"; };
+		66D1A32E1734342200398C4A /* CDANarrativeReferenceImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDANarrativeReferenceImporter.h; path = HealthDataStandards/CDANarrativeReferenceImporter.h; sourceTree = SOURCE_ROOT; };
+		66D1A32F1734342200398C4A /* CDANarrativeReferenceImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDANarrativeReferenceImporter.m; path = HealthDataStandards/CDANarrativeReferenceImporter.m; sourceTree = SOURCE_ROOT; };
+		66D1A3321734424000398C4A /* CDASectionImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDASectionImporter.h; path = HealthDataStandards/CDASectionImporter.h; sourceTree = SOURCE_ROOT; };
+		66D1A3331734424000398C4A /* CDASectionImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDASectionImporter.m; path = HealthDataStandards/CDASectionImporter.m; sourceTree = SOURCE_ROOT; };
+		66D1A3361734426A00398C4A /* CDAConditionImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAConditionImporter.h; path = HealthDataStandards/CDAConditionImporter.h; sourceTree = SOURCE_ROOT; };
+		66D1A3371734426A00398C4A /* CDAConditionImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAConditionImporter.m; path = HealthDataStandards/CDAConditionImporter.m; sourceTree = SOURCE_ROOT; };
+		66D1A33A17344BAC00398C4A /* CDACondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDACondition.h; path = HealthDataStandards/CDACondition.h; sourceTree = "<group>"; };
+		66D1A33B17344BAC00398C4A /* CDACondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDACondition.m; path = HealthDataStandards/CDACondition.m; sourceTree = "<group>"; };
+		66D1A34017344CBF00398C4A /* CDAEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAEntry.h; path = HealthDataStandards/CDAEntry.h; sourceTree = "<group>"; };
+		66D1A34117344CBF00398C4A /* CDAEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAEntry.m; path = HealthDataStandards/CDAEntry.m; sourceTree = "<group>"; };
+		66D1A34417346A8A00398C4A /* CDAEntryFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAEntryFinder.h; path = HealthDataStandards/CDAEntryFinder.h; sourceTree = SOURCE_ROOT; };
+		66D1A34517346A8A00398C4A /* CDAEntryFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAEntryFinder.m; path = HealthDataStandards/CDAEntryFinder.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24411BCB171312230030A358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24411BD1171312230030A358 /* SenTestingKit.framework in Frameworks */,
+				24411BD4171312230030A358 /* Foundation.framework in Frameworks */,
+				24EAA7ED172ED17900322E9A /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24746FA3170DFADE0003255B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24746FAA170DFADF0003255B /* Foundation.framework in Frameworks */,
+				24EAA7EC172ED17900322E9A /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24411BD5171312230030A358 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				24411BE6171322810030A358 /* Fixtures */,
+				24EAA7E1172EB5DD00322E9A /* Importers */,
+				24411BD6171312230030A358 /* Supporting Files */,
+			);
+			name = Tests;
+			path = CcdaParserTests;
+			sourceTree = "<group>";
+		};
+		24411BD6171312230030A358 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24EAA7EE172ED1AE00322E9A /* HealthDataStandardsTests-Info.plist */,
+				24EAA7EF172ED1AE00322E9A /* HealthDataStandardsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24411BE6171322810030A358 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				24EAA7F5172ED1D500322E9A /* sample_ccda.xml */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		24746F9D170DFADE0003255B = {
+			isa = PBXGroup;
+			children = (
+				24746FAB170DFADF0003255B /* Importers */,
+				24EAA7E0172EB56900322E9A /* Models */,
+				24EAA80117305E4B00322E9A /* Utilities */,
+				24EAA7DA172ADCAF00322E9A /* XMLSupport */,
+				24411BD5171312230030A358 /* Tests */,
+				24746FA8170DFADF0003255B /* Frameworks */,
+				24746FA7170DFADF0003255B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24746FA7170DFADF0003255B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24746FA6170DFADF0003255B /* libHealthDataStandards.a */,
+				24411BCF171312230030A358 /* HealthDataStandardsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24746FA8170DFADF0003255B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24746FA9170DFADF0003255B /* Foundation.framework */,
+				24411BD0171312230030A358 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24746FAB170DFADF0003255B /* Importers */ = {
+			isa = PBXGroup;
+			children = (
+				66D1A32D173433F600398C4A /* CDA */,
+				24EAA7DF172EB4F700322E9A /* CCDA */,
+				24746FAC170DFADF0003255B /* Supporting Files */,
+			);
+			name = Importers;
+			path = CcdaParser;
+			sourceTree = "<group>";
+		};
+		24746FAC170DFADF0003255B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24EAA7EA172ED17900322E9A /* HealthDataStandards-Prefix.pch */,
+				24EAA7EB172ED17900322E9A /* libxml2.dylib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24EAA7DA172ADCAF00322E9A /* XMLSupport */ = {
+			isa = PBXGroup;
+			children = (
+				24EAA7E2172ED15500322E9A /* GDataXMLNode.h */,
+				24EAA7E3172ED15500322E9A /* GDataXMLNode.m */,
+			);
+			name = XMLSupport;
+			sourceTree = "<group>";
+		};
+		24EAA7DF172EB4F700322E9A /* CCDA */ = {
+			isa = PBXGroup;
+			children = (
+				24EAA7E6172ED16D00322E9A /* CCDAPatientImporter.h */,
+				24EAA7E7172ED16D00322E9A /* CCDAPatientImporter.m */,
+			);
+			name = CCDA;
+			sourceTree = "<group>";
+		};
+		24EAA7E0172EB56900322E9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66D1A33F17344C6100398C4A /* CDA */,
+				66D1A33E17344C5C00398C4A /* HDS */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		24EAA7E1172EB5DD00322E9A /* Importers */ = {
+			isa = PBXGroup;
+			children = (
+				24EAA7FC17300F8400322E9A /* CCDA */,
+			);
+			name = Importers;
+			sourceTree = "<group>";
+		};
+		24EAA7FC17300F8400322E9A /* CCDA */ = {
+			isa = PBXGroup;
+			children = (
+				24EAA7F2172ED1C900322E9A /* CCDAPatientImporterTests.h */,
+				24EAA7F3172ED1C900322E9A /* CCDAPatientImporterTests.m */,
+			);
+			name = CCDA;
+			sourceTree = "<group>";
+		};
+		24EAA80117305E4B00322E9A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				24EAA80617305EDC00322E9A /* HL7Helper.h */,
+				24EAA80717305EDC00322E9A /* HL7Helper.m */,
+				66D1A32517340DF200398C4A /* CDAHelper.h */,
+				66D1A32617340DF200398C4A /* CDAHelper.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		66D1A32D173433F600398C4A /* CDA */ = {
+			isa = PBXGroup;
+			children = (
+				66D1A32E1734342200398C4A /* CDANarrativeReferenceImporter.h */,
+				66D1A32F1734342200398C4A /* CDANarrativeReferenceImporter.m */,
+				66D1A3321734424000398C4A /* CDASectionImporter.h */,
+				66D1A3331734424000398C4A /* CDASectionImporter.m */,
+				66D1A3361734426A00398C4A /* CDAConditionImporter.h */,
+				66D1A3371734426A00398C4A /* CDAConditionImporter.m */,
+				66D1A34417346A8A00398C4A /* CDAEntryFinder.h */,
+				66D1A34517346A8A00398C4A /* CDAEntryFinder.m */,
+			);
+			name = CDA;
+			sourceTree = "<group>";
+		};
+		66D1A33E17344C5C00398C4A /* HDS */ = {
+			isa = PBXGroup;
+			children = (
+				24EAA7FD17300FDE00322E9A /* HDSRecord.h */,
+				24EAA7FE17300FDE00322E9A /* HDSRecord.m */,
+				66D1A3191732DC2100398C4A /* HDSCodedEntry.h */,
+				66D1A31A1732DC2100398C4A /* HDSCodedEntry.m */,
+			);
+			name = HDS;
+			sourceTree = "<group>";
+		};
+		66D1A33F17344C6100398C4A /* CDA */ = {
+			isa = PBXGroup;
+			children = (
+				66D1A3211733076100398C4A /* CDAAddress.h */,
+				66D1A3221733076100398C4A /* CDAAddress.m */,
+				66D1A3291734228E00398C4A /* CDATelecom.h */,
+				66D1A32A1734228E00398C4A /* CDATelecom.m */,
+				66D1A33A17344BAC00398C4A /* CDACondition.h */,
+				66D1A33B17344BAC00398C4A /* CDACondition.m */,
+				66D1A34017344CBF00398C4A /* CDAEntry.h */,
+				66D1A34117344CBF00398C4A /* CDAEntry.m */,
+			);
+			name = CDA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24411BCE171312230030A358 /* HealthDataStandardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24411BE1171312230030A358 /* Build configuration list for PBXNativeTarget "HealthDataStandardsTests" */;
+			buildPhases = (
+				24411BCA171312230030A358 /* Sources */,
+				24411BCB171312230030A358 /* Frameworks */,
+				24411BCC171312230030A358 /* Resources */,
+				24411BCD171312230030A358 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthDataStandardsTests;
+			productName = CcdaParserTests;
+			productReference = 24411BCF171312230030A358 /* HealthDataStandardsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		24746FA5170DFADE0003255B /* HealthDataStandards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24746FB4170DFADF0003255B /* Build configuration list for PBXNativeTarget "HealthDataStandards" */;
+			buildPhases = (
+				24746FA2170DFADE0003255B /* Sources */,
+				24746FA3170DFADE0003255B /* Frameworks */,
+				24746FA4170DFADE0003255B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthDataStandards;
+			productName = CcdaParser;
+			productReference = 24746FA6170DFADF0003255B /* libHealthDataStandards.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24746F9E170DFADE0003255B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "abgoldstein industries";
+			};
+			buildConfigurationList = 24746FA1170DFADE0003255B /* Build configuration list for PBXProject "HealthDataStandards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24746F9D170DFADE0003255B;
+			productRefGroup = 24746FA7170DFADF0003255B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24746FA5170DFADE0003255B /* HealthDataStandards */,
+				24411BCE171312230030A358 /* HealthDataStandardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24411BCC171312230030A358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EAA7F6172ED1D500322E9A /* sample_ccda.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24411BCD171312230030A358 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24411BCA171312230030A358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EAA7E5172ED15500322E9A /* GDataXMLNode.m in Sources */,
+				24EAA7E9172ED16D00322E9A /* CCDAPatientImporter.m in Sources */,
+				24EAA7F4172ED1C900322E9A /* CCDAPatientImporterTests.m in Sources */,
+				24EAA80017300FDE00322E9A /* HDSRecord.m in Sources */,
+				24EAA80917305EDC00322E9A /* HL7Helper.m in Sources */,
+				66D1A31C1732DC2100398C4A /* HDSCodedEntry.m in Sources */,
+				66D1A3241733076100398C4A /* CDAAddress.m in Sources */,
+				66D1A32817340DF200398C4A /* CDAHelper.m in Sources */,
+				66D1A32C1734228E00398C4A /* CDATelecom.m in Sources */,
+				66D1A3311734342200398C4A /* CDANarrativeReferenceImporter.m in Sources */,
+				66D1A3351734424000398C4A /* CDASectionImporter.m in Sources */,
+				66D1A3391734426B00398C4A /* CDAConditionImporter.m in Sources */,
+				66D1A33D17344BAD00398C4A /* CDACondition.m in Sources */,
+				66D1A34317344CBF00398C4A /* CDAEntry.m in Sources */,
+				66D1A34717346A8A00398C4A /* CDAEntryFinder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24746FA2170DFADE0003255B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EAA7E4172ED15500322E9A /* GDataXMLNode.m in Sources */,
+				24EAA7E8172ED16D00322E9A /* CCDAPatientImporter.m in Sources */,
+				24EAA7FF17300FDE00322E9A /* HDSRecord.m in Sources */,
+				24EAA80817305EDC00322E9A /* HL7Helper.m in Sources */,
+				66D1A31B1732DC2100398C4A /* HDSCodedEntry.m in Sources */,
+				66D1A3231733076100398C4A /* CDAAddress.m in Sources */,
+				66D1A32717340DF200398C4A /* CDAHelper.m in Sources */,
+				66D1A32B1734228E00398C4A /* CDATelecom.m in Sources */,
+				66D1A3301734342200398C4A /* CDANarrativeReferenceImporter.m in Sources */,
+				66D1A3341734424000398C4A /* CDASectionImporter.m in Sources */,
+				66D1A3381734426B00398C4A /* CDAConditionImporter.m in Sources */,
+				66D1A33C17344BAD00398C4A /* CDACondition.m in Sources */,
+				66D1A34217344CBF00398C4A /* CDAEntry.m in Sources */,
+				66D1A34617346A8A00398C4A /* CDAEntryFinder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		24411BDF171312230030A358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HealthDataStandardsTests/HealthDataStandardsTests-Prefix.pch";
+				INFOPLIST_FILE = "HealthDataStandardsTests/HealthDataStandardsTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HealthDataStandards\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = HealthDataStandardsTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		24411BE0171312230030A358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HealthDataStandardsTests/HealthDataStandardsTests-Prefix.pch";
+				INFOPLIST_FILE = "HealthDataStandardsTests/HealthDataStandardsTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HealthDataStandards\"",
+				);
+				PRODUCT_NAME = HealthDataStandardsTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		24746FB2170DFADF0003255B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24746FB3170DFADF0003255B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24746FB5170DFADF0003255B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HealthDataStandards.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HealthDataStandards/HealthDataStandards-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HealthDataStandards\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = HealthDataStandards;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		24746FB6170DFADF0003255B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HealthDataStandards.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HealthDataStandards/HealthDataStandards-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HealthDataStandards\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = HealthDataStandards;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24411BE1171312230030A358 /* Build configuration list for PBXNativeTarget "HealthDataStandardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24411BDF171312230030A358 /* Debug */,
+				24411BE0171312230030A358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24746FA1170DFADE0003255B /* Build configuration list for PBXProject "HealthDataStandards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24746FB2170DFADF0003255B /* Debug */,
+				24746FB3170DFADF0003255B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24746FB4170DFADF0003255B /* Build configuration list for PBXNativeTarget "HealthDataStandards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24746FB5170DFADF0003255B /* Debug */,
+				24746FB6170DFADF0003255B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24746F9E170DFADE0003255B /* Project object */;
+}
