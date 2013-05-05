@@ -18,18 +18,18 @@
 		24EAA7ED172ED17900322E9A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EAA7EB172ED17900322E9A /* libxml2.dylib */; };
 		24EAA7F4172ED1C900322E9A /* CCDAPatientImporterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EAA7F3172ED1C900322E9A /* CCDAPatientImporterTests.m */; };
 		24EAA7F6172ED1D500322E9A /* sample_ccda.xml in Resources */ = {isa = PBXBuildFile; fileRef = 24EAA7F5172ED1D500322E9A /* sample_ccda.xml */; };
-		24EAA7FF17300FDE00322E9A /* HDSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EAA7FE17300FDE00322E9A /* HDSRecord.m */; };
-		24EAA80017300FDE00322E9A /* HDSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EAA7FE17300FDE00322E9A /* HDSRecord.m */; };
 		24EAA80817305EDC00322E9A /* HL7Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EAA80717305EDC00322E9A /* HL7Helper.m */; };
 		24EAA80917305EDC00322E9A /* HL7Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EAA80717305EDC00322E9A /* HL7Helper.m */; };
+		6632F6C01736EC9600157568 /* CDATelecom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6632F6BF1736EC9600157568 /* CDATelecom.m */; };
+		6632F6C11736EC9600157568 /* CDATelecom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6632F6BF1736EC9600157568 /* CDATelecom.m */; };
+		6632F6C41736ECA300157568 /* HDSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6632F6C31736ECA300157568 /* HDSRecord.m */; };
+		6632F6C51736ECA300157568 /* HDSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6632F6C31736ECA300157568 /* HDSRecord.m */; };
 		66D1A31B1732DC2100398C4A /* HDSCodedEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A31A1732DC2100398C4A /* HDSCodedEntry.m */; };
 		66D1A31C1732DC2100398C4A /* HDSCodedEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A31A1732DC2100398C4A /* HDSCodedEntry.m */; };
 		66D1A3231733076100398C4A /* CDAAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A3221733076100398C4A /* CDAAddress.m */; };
 		66D1A3241733076100398C4A /* CDAAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A3221733076100398C4A /* CDAAddress.m */; };
 		66D1A32717340DF200398C4A /* CDAHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A32617340DF200398C4A /* CDAHelper.m */; };
 		66D1A32817340DF200398C4A /* CDAHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A32617340DF200398C4A /* CDAHelper.m */; };
-		66D1A32B1734228E00398C4A /* CDATelecom.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A32A1734228E00398C4A /* CDATelecom.m */; };
-		66D1A32C1734228E00398C4A /* CDATelecom.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A32A1734228E00398C4A /* CDATelecom.m */; };
 		66D1A3301734342200398C4A /* CDANarrativeReferenceImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A32F1734342200398C4A /* CDANarrativeReferenceImporter.m */; };
 		66D1A3311734342200398C4A /* CDANarrativeReferenceImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A32F1734342200398C4A /* CDANarrativeReferenceImporter.m */; };
 		66D1A3341734424000398C4A /* CDASectionImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A3331734424000398C4A /* CDASectionImporter.m */; };
@@ -72,18 +72,18 @@
 		24EAA7F2172ED1C900322E9A /* CCDAPatientImporterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCDAPatientImporterTests.h; path = HealthDataStandardsTests/CCDAPatientImporterTests.h; sourceTree = SOURCE_ROOT; };
 		24EAA7F3172ED1C900322E9A /* CCDAPatientImporterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCDAPatientImporterTests.m; path = HealthDataStandardsTests/CCDAPatientImporterTests.m; sourceTree = SOURCE_ROOT; };
 		24EAA7F5172ED1D500322E9A /* sample_ccda.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = sample_ccda.xml; path = HealthDataStandardsTests/sample_ccda.xml; sourceTree = SOURCE_ROOT; };
-		24EAA7FD17300FDE00322E9A /* HDSRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDSRecord.h; sourceTree = "<group>"; };
-		24EAA7FE17300FDE00322E9A /* HDSRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDSRecord.m; sourceTree = "<group>"; };
 		24EAA80617305EDC00322E9A /* HL7Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HL7Helper.h; path = HealthDataStandards/HL7Helper.h; sourceTree = "<group>"; };
 		24EAA80717305EDC00322E9A /* HL7Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HL7Helper.m; path = HealthDataStandards/HL7Helper.m; sourceTree = "<group>"; };
+		6632F6BE1736EC9600157568 /* CDATelecom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDATelecom.h; path = HealthDataStandards/CDATelecom.h; sourceTree = "<group>"; };
+		6632F6BF1736EC9600157568 /* CDATelecom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDATelecom.m; path = HealthDataStandards/CDATelecom.m; sourceTree = "<group>"; };
+		6632F6C21736ECA300157568 /* HDSRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HDSRecord.h; path = HealthDataStandards/HDSRecord.h; sourceTree = "<group>"; };
+		6632F6C31736ECA300157568 /* HDSRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HDSRecord.m; path = HealthDataStandards/HDSRecord.m; sourceTree = "<group>"; };
 		66D1A3191732DC2100398C4A /* HDSCodedEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HDSCodedEntry.h; path = HealthDataStandards/HDSCodedEntry.h; sourceTree = "<group>"; };
 		66D1A31A1732DC2100398C4A /* HDSCodedEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HDSCodedEntry.m; path = HealthDataStandards/HDSCodedEntry.m; sourceTree = "<group>"; };
 		66D1A3211733076100398C4A /* CDAAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAAddress.h; path = HealthDataStandards/CDAAddress.h; sourceTree = "<group>"; };
 		66D1A3221733076100398C4A /* CDAAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAAddress.m; path = HealthDataStandards/CDAAddress.m; sourceTree = "<group>"; };
 		66D1A32517340DF200398C4A /* CDAHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAHelper.h; path = HealthDataStandards/CDAHelper.h; sourceTree = "<group>"; };
 		66D1A32617340DF200398C4A /* CDAHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAHelper.m; path = HealthDataStandards/CDAHelper.m; sourceTree = "<group>"; };
-		66D1A3291734228E00398C4A /* CDATelecom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDATelecom.h; sourceTree = "<group>"; };
-		66D1A32A1734228E00398C4A /* CDATelecom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDATelecom.m; sourceTree = "<group>"; };
 		66D1A32E1734342200398C4A /* CDANarrativeReferenceImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDANarrativeReferenceImporter.h; path = HealthDataStandards/CDANarrativeReferenceImporter.h; sourceTree = SOURCE_ROOT; };
 		66D1A32F1734342200398C4A /* CDANarrativeReferenceImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDANarrativeReferenceImporter.m; path = HealthDataStandards/CDANarrativeReferenceImporter.m; sourceTree = SOURCE_ROOT; };
 		66D1A3321734424000398C4A /* CDASectionImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDASectionImporter.h; path = HealthDataStandards/CDASectionImporter.h; sourceTree = SOURCE_ROOT; };
@@ -273,8 +273,8 @@
 		66D1A33E17344C5C00398C4A /* HDS */ = {
 			isa = PBXGroup;
 			children = (
-				24EAA7FD17300FDE00322E9A /* HDSRecord.h */,
-				24EAA7FE17300FDE00322E9A /* HDSRecord.m */,
+				6632F6C21736ECA300157568 /* HDSRecord.h */,
+				6632F6C31736ECA300157568 /* HDSRecord.m */,
 				66D1A3191732DC2100398C4A /* HDSCodedEntry.h */,
 				66D1A31A1732DC2100398C4A /* HDSCodedEntry.m */,
 			);
@@ -286,8 +286,8 @@
 			children = (
 				66D1A3211733076100398C4A /* CDAAddress.h */,
 				66D1A3221733076100398C4A /* CDAAddress.m */,
-				66D1A3291734228E00398C4A /* CDATelecom.h */,
-				66D1A32A1734228E00398C4A /* CDATelecom.m */,
+				6632F6BE1736EC9600157568 /* CDATelecom.h */,
+				6632F6BF1736EC9600157568 /* CDATelecom.m */,
 				66D1A33A17344BAC00398C4A /* CDACondition.h */,
 				66D1A33B17344BAC00398C4A /* CDACondition.m */,
 				66D1A34017344CBF00398C4A /* CDAEntry.h */,
@@ -396,18 +396,18 @@
 				24EAA7E5172ED15500322E9A /* GDataXMLNode.m in Sources */,
 				24EAA7E9172ED16D00322E9A /* CCDAPatientImporter.m in Sources */,
 				24EAA7F4172ED1C900322E9A /* CCDAPatientImporterTests.m in Sources */,
-				24EAA80017300FDE00322E9A /* HDSRecord.m in Sources */,
 				24EAA80917305EDC00322E9A /* HL7Helper.m in Sources */,
 				66D1A31C1732DC2100398C4A /* HDSCodedEntry.m in Sources */,
 				66D1A3241733076100398C4A /* CDAAddress.m in Sources */,
 				66D1A32817340DF200398C4A /* CDAHelper.m in Sources */,
-				66D1A32C1734228E00398C4A /* CDATelecom.m in Sources */,
 				66D1A3311734342200398C4A /* CDANarrativeReferenceImporter.m in Sources */,
 				66D1A3351734424000398C4A /* CDASectionImporter.m in Sources */,
 				66D1A3391734426B00398C4A /* CDAConditionImporter.m in Sources */,
 				66D1A33D17344BAD00398C4A /* CDACondition.m in Sources */,
 				66D1A34317344CBF00398C4A /* CDAEntry.m in Sources */,
 				66D1A34717346A8A00398C4A /* CDAEntryFinder.m in Sources */,
+				6632F6C11736EC9600157568 /* CDATelecom.m in Sources */,
+				6632F6C51736ECA300157568 /* HDSRecord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,18 +417,18 @@
 			files = (
 				24EAA7E4172ED15500322E9A /* GDataXMLNode.m in Sources */,
 				24EAA7E8172ED16D00322E9A /* CCDAPatientImporter.m in Sources */,
-				24EAA7FF17300FDE00322E9A /* HDSRecord.m in Sources */,
 				24EAA80817305EDC00322E9A /* HL7Helper.m in Sources */,
 				66D1A31B1732DC2100398C4A /* HDSCodedEntry.m in Sources */,
 				66D1A3231733076100398C4A /* CDAAddress.m in Sources */,
 				66D1A32717340DF200398C4A /* CDAHelper.m in Sources */,
-				66D1A32B1734228E00398C4A /* CDATelecom.m in Sources */,
 				66D1A3301734342200398C4A /* CDANarrativeReferenceImporter.m in Sources */,
 				66D1A3341734424000398C4A /* CDASectionImporter.m in Sources */,
 				66D1A3381734426B00398C4A /* CDAConditionImporter.m in Sources */,
 				66D1A33C17344BAD00398C4A /* CDACondition.m in Sources */,
 				66D1A34217344CBF00398C4A /* CDAEntry.m in Sources */,
 				66D1A34617346A8A00398C4A /* CDAEntryFinder.m in Sources */,
+				6632F6C01736EC9600157568 /* CDATelecom.m in Sources */,
+				6632F6C41736ECA300157568 /* HDSRecord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
