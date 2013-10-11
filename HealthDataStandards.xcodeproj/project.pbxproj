@@ -42,6 +42,36 @@
 		66D1A34317344CBF00398C4A /* CDAEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A34117344CBF00398C4A /* CDAEntry.m */; };
 		66D1A34617346A8A00398C4A /* CDAEntryFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A34517346A8A00398C4A /* CDAEntryFinder.m */; };
 		66D1A34717346A8A00398C4A /* CDAEntryFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1A34517346A8A00398C4A /* CDAEntryFinder.m */; };
+		D8108FA117EA4CEE00734FC0 /* CDAProblemListImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBDD17CFDF8B0095A309 /* CDAProblemListImporter.m */; };
+		D8108FA217EA4CFB00734FC0 /* CDAProcedureImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBE017CFDF970095A309 /* CDAProcedureImporter.m */; };
+		D8108FA317F0843900734FC0 /* CDACarePlanImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBD417CFDF500095A309 /* CDACarePlanImporter.m */; };
+		D8108FA417F0843900734FC0 /* CDADischargeMedicationImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBD717CFDF660095A309 /* CDADischargeMedicationImporter.m */; };
+		D8108FA517F0843900734FC0 /* CDAReasonForReferralImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBDA17CFDF7C0095A309 /* CDAReasonForReferralImporter.m */; };
+		D8108FA617F0843900734FC0 /* CDAFunctionalAndCognitiveStatusImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBE317CFDFAA0095A309 /* CDAFunctionalAndCognitiveStatusImporter.m */; };
+		D8108FA717F0843900734FC0 /* CDAResultsImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBE617CFDFB40095A309 /* CDAResultsImporter.m */; };
+		D8108FA817F0843900734FC0 /* CDASocialHistoryImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBE917CFDFC10095A309 /* CDASocialHistoryImporter.m */; };
+		D8108FA917F0843900734FC0 /* CDAVitalSignsImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBEC17CFDFCD0095A309 /* CDAVitalSignsImporter.m */; };
+		D827D7E2174D18E000BC77A6 /* CDAEncounterImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D827D7E1174D18E000BC77A6 /* CDAEncounterImporter.m */; };
+		D827D7E3174D18E000BC77A6 /* CDAEncounterImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D827D7E1174D18E000BC77A6 /* CDAEncounterImporter.m */; };
+		D827D7E6174D18F300BC77A6 /* CDAImmunizationImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D827D7E5174D18F300BC77A6 /* CDAImmunizationImporter.m */; };
+		D827D7E7174D18F300BC77A6 /* CDAImmunizationImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D827D7E5174D18F300BC77A6 /* CDAImmunizationImporter.m */; };
+		D827D7EA174D190900BC77A6 /* CDAMedicationImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D827D7E9174D190900BC77A6 /* CDAMedicationImporter.m */; };
+		D827D7EB174D190900BC77A6 /* CDAMedicationImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D827D7E9174D190900BC77A6 /* CDAMedicationImporter.m */; };
+		D87571F0174C056600F2612C /* CDAAllergy.m in Sources */ = {isa = PBXBuildFile; fileRef = D87571EF174C056600F2612C /* CDAAllergy.m */; };
+		D87571F1174C056600F2612C /* CDAAllergy.m in Sources */ = {isa = PBXBuildFile; fileRef = D87571EF174C056600F2612C /* CDAAllergy.m */; };
+		D87571F4174C07E300F2612C /* CDAAllergyImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D87571F3174C07E300F2612C /* CDAAllergyImporter.m */; };
+		D87571F5174C07E300F2612C /* CDAAllergyImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D87571F3174C07E300F2612C /* CDAAllergyImporter.m */; };
+		D8BD19641773A15D008096D7 /* CDADatum.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BD19631773A15D008096D7 /* CDADatum.m */; };
+		D8BD19651773A15D008096D7 /* CDADatum.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BD19631773A15D008096D7 /* CDADatum.m */; };
+		D8C4BBD517CFDF500095A309 /* CDACarePlanImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBD417CFDF500095A309 /* CDACarePlanImporter.m */; };
+		D8C4BBD817CFDF660095A309 /* CDADischargeMedicationImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBD717CFDF660095A309 /* CDADischargeMedicationImporter.m */; };
+		D8C4BBDB17CFDF7D0095A309 /* CDAReasonForReferralImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBDA17CFDF7C0095A309 /* CDAReasonForReferralImporter.m */; };
+		D8C4BBDE17CFDF8B0095A309 /* CDAProblemListImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBDD17CFDF8B0095A309 /* CDAProblemListImporter.m */; };
+		D8C4BBE117CFDF970095A309 /* CDAProcedureImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBE017CFDF970095A309 /* CDAProcedureImporter.m */; };
+		D8C4BBE417CFDFAA0095A309 /* CDAFunctionalAndCognitiveStatusImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBE317CFDFAA0095A309 /* CDAFunctionalAndCognitiveStatusImporter.m */; };
+		D8C4BBE717CFDFB40095A309 /* CDAResultsImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBE617CFDFB40095A309 /* CDAResultsImporter.m */; };
+		D8C4BBEA17CFDFC10095A309 /* CDASocialHistoryImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBE917CFDFC10095A309 /* CDASocialHistoryImporter.m */; };
+		D8C4BBED17CFDFCD0095A309 /* CDAVitalSignsImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4BBEC17CFDFCD0095A309 /* CDAVitalSignsImporter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,6 +126,37 @@
 		66D1A34117344CBF00398C4A /* CDAEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAEntry.m; path = HealthDataStandards/CDAEntry.m; sourceTree = "<group>"; };
 		66D1A34417346A8A00398C4A /* CDAEntryFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAEntryFinder.h; path = HealthDataStandards/CDAEntryFinder.h; sourceTree = SOURCE_ROOT; };
 		66D1A34517346A8A00398C4A /* CDAEntryFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAEntryFinder.m; path = HealthDataStandards/CDAEntryFinder.m; sourceTree = SOURCE_ROOT; };
+		D827D7E0174D18E000BC77A6 /* CDAEncounterImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAEncounterImporter.h; sourceTree = SOURCE_ROOT; };
+		D827D7E1174D18E000BC77A6 /* CDAEncounterImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAEncounterImporter.m; sourceTree = SOURCE_ROOT; };
+		D827D7E4174D18F300BC77A6 /* CDAImmunizationImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAImmunizationImporter.h; sourceTree = SOURCE_ROOT; };
+		D827D7E5174D18F300BC77A6 /* CDAImmunizationImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAImmunizationImporter.m; sourceTree = SOURCE_ROOT; };
+		D827D7E8174D190900BC77A6 /* CDAMedicationImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAMedicationImporter.h; sourceTree = SOURCE_ROOT; };
+		D827D7E9174D190900BC77A6 /* CDAMedicationImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAMedicationImporter.m; sourceTree = SOURCE_ROOT; };
+		D87571DE174530F000F2612C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D87571EE174C056600F2612C /* CDAAllergy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAAllergy.h; path = HealthDataStandards/CDAAllergy.h; sourceTree = "<group>"; };
+		D87571EF174C056600F2612C /* CDAAllergy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAAllergy.m; path = HealthDataStandards/CDAAllergy.m; sourceTree = "<group>"; };
+		D87571F2174C07E300F2612C /* CDAAllergyImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAAllergyImporter.h; sourceTree = SOURCE_ROOT; };
+		D87571F3174C07E300F2612C /* CDAAllergyImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAAllergyImporter.m; sourceTree = SOURCE_ROOT; };
+		D8BD19621773A15D008096D7 /* CDADatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDADatum.h; sourceTree = SOURCE_ROOT; };
+		D8BD19631773A15D008096D7 /* CDADatum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDADatum.m; sourceTree = SOURCE_ROOT; };
+		D8C4BBD317CFDF500095A309 /* CDACarePlanImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDACarePlanImporter.h; sourceTree = SOURCE_ROOT; };
+		D8C4BBD417CFDF500095A309 /* CDACarePlanImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDACarePlanImporter.m; sourceTree = SOURCE_ROOT; };
+		D8C4BBD617CFDF660095A309 /* CDADischargeMedicationImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDADischargeMedicationImporter.h; sourceTree = SOURCE_ROOT; };
+		D8C4BBD717CFDF660095A309 /* CDADischargeMedicationImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDADischargeMedicationImporter.m; sourceTree = SOURCE_ROOT; };
+		D8C4BBD917CFDF7C0095A309 /* CDAReasonForReferralImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAReasonForReferralImporter.h; sourceTree = SOURCE_ROOT; };
+		D8C4BBDA17CFDF7C0095A309 /* CDAReasonForReferralImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAReasonForReferralImporter.m; sourceTree = SOURCE_ROOT; };
+		D8C4BBDC17CFDF8B0095A309 /* CDAProblemListImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAProblemListImporter.h; sourceTree = SOURCE_ROOT; };
+		D8C4BBDD17CFDF8B0095A309 /* CDAProblemListImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAProblemListImporter.m; sourceTree = SOURCE_ROOT; };
+		D8C4BBDF17CFDF970095A309 /* CDAProcedureImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAProcedureImporter.h; sourceTree = SOURCE_ROOT; };
+		D8C4BBE017CFDF970095A309 /* CDAProcedureImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAProcedureImporter.m; sourceTree = SOURCE_ROOT; };
+		D8C4BBE217CFDFA90095A309 /* CDAFunctionalAndCognitiveStatusImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAFunctionalAndCognitiveStatusImporter.h; sourceTree = SOURCE_ROOT; };
+		D8C4BBE317CFDFAA0095A309 /* CDAFunctionalAndCognitiveStatusImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAFunctionalAndCognitiveStatusImporter.m; sourceTree = SOURCE_ROOT; };
+		D8C4BBE517CFDFB30095A309 /* CDAResultsImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAResultsImporter.h; sourceTree = SOURCE_ROOT; };
+		D8C4BBE617CFDFB40095A309 /* CDAResultsImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAResultsImporter.m; sourceTree = SOURCE_ROOT; };
+		D8C4BBE817CFDFC10095A309 /* CDASocialHistoryImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDASocialHistoryImporter.h; sourceTree = SOURCE_ROOT; };
+		D8C4BBE917CFDFC10095A309 /* CDASocialHistoryImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDASocialHistoryImporter.m; sourceTree = SOURCE_ROOT; };
+		D8C4BBEB17CFDFCD0095A309 /* CDAVitalSignsImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAVitalSignsImporter.h; sourceTree = SOURCE_ROOT; };
+		D8C4BBEC17CFDFCD0095A309 /* CDAVitalSignsImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAVitalSignsImporter.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +237,7 @@
 			children = (
 				24746FA9170DFADF0003255B /* Foundation.framework */,
 				24411BD0171312230030A358 /* SenTestingKit.framework */,
+				D87571DE174530F000F2612C /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,6 +283,7 @@
 		24EAA7E0172EB56900322E9A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				66D1A3211733076100398C4A /* CDAAddress.h */,
 				66D1A33F17344C6100398C4A /* CDA */,
 				66D1A33E17344C5C00398C4A /* HDS */,
 			);
@@ -262,10 +325,38 @@
 				66D1A32F1734342200398C4A /* CDANarrativeReferenceImporter.m */,
 				66D1A3321734424000398C4A /* CDASectionImporter.h */,
 				66D1A3331734424000398C4A /* CDASectionImporter.m */,
-				66D1A3361734426A00398C4A /* CDAConditionImporter.h */,
-				66D1A3371734426A00398C4A /* CDAConditionImporter.m */,
 				66D1A34417346A8A00398C4A /* CDAEntryFinder.h */,
 				66D1A34517346A8A00398C4A /* CDAEntryFinder.m */,
+				D8BD19621773A15D008096D7 /* CDADatum.h */,
+				D8BD19631773A15D008096D7 /* CDADatum.m */,
+				D87571F2174C07E300F2612C /* CDAAllergyImporter.h */,
+				D87571F3174C07E300F2612C /* CDAAllergyImporter.m */,
+				66D1A3361734426A00398C4A /* CDAConditionImporter.h */,
+				66D1A3371734426A00398C4A /* CDAConditionImporter.m */,
+				D827D7E0174D18E000BC77A6 /* CDAEncounterImporter.h */,
+				D827D7E1174D18E000BC77A6 /* CDAEncounterImporter.m */,
+				D827D7E4174D18F300BC77A6 /* CDAImmunizationImporter.h */,
+				D827D7E5174D18F300BC77A6 /* CDAImmunizationImporter.m */,
+				D827D7E8174D190900BC77A6 /* CDAMedicationImporter.h */,
+				D827D7E9174D190900BC77A6 /* CDAMedicationImporter.m */,
+				D8C4BBD317CFDF500095A309 /* CDACarePlanImporter.h */,
+				D8C4BBD417CFDF500095A309 /* CDACarePlanImporter.m */,
+				D8C4BBD617CFDF660095A309 /* CDADischargeMedicationImporter.h */,
+				D8C4BBD717CFDF660095A309 /* CDADischargeMedicationImporter.m */,
+				D8C4BBD917CFDF7C0095A309 /* CDAReasonForReferralImporter.h */,
+				D8C4BBDA17CFDF7C0095A309 /* CDAReasonForReferralImporter.m */,
+				D8C4BBDC17CFDF8B0095A309 /* CDAProblemListImporter.h */,
+				D8C4BBDD17CFDF8B0095A309 /* CDAProblemListImporter.m */,
+				D8C4BBDF17CFDF970095A309 /* CDAProcedureImporter.h */,
+				D8C4BBE017CFDF970095A309 /* CDAProcedureImporter.m */,
+				D8C4BBE217CFDFA90095A309 /* CDAFunctionalAndCognitiveStatusImporter.h */,
+				D8C4BBE317CFDFAA0095A309 /* CDAFunctionalAndCognitiveStatusImporter.m */,
+				D8C4BBE517CFDFB30095A309 /* CDAResultsImporter.h */,
+				D8C4BBE617CFDFB40095A309 /* CDAResultsImporter.m */,
+				D8C4BBE817CFDFC10095A309 /* CDASocialHistoryImporter.h */,
+				D8C4BBE917CFDFC10095A309 /* CDASocialHistoryImporter.m */,
+				D8C4BBEB17CFDFCD0095A309 /* CDAVitalSignsImporter.h */,
+				D8C4BBEC17CFDFCD0095A309 /* CDAVitalSignsImporter.m */,
 			);
 			name = CDA;
 			sourceTree = "<group>";
@@ -284,7 +375,6 @@
 		66D1A33F17344C6100398C4A /* CDA */ = {
 			isa = PBXGroup;
 			children = (
-				66D1A3211733076100398C4A /* CDAAddress.h */,
 				66D1A3221733076100398C4A /* CDAAddress.m */,
 				6632F6BE1736EC9600157568 /* CDATelecom.h */,
 				6632F6BF1736EC9600157568 /* CDATelecom.m */,
@@ -292,6 +382,8 @@
 				66D1A33B17344BAC00398C4A /* CDACondition.m */,
 				66D1A34017344CBF00398C4A /* CDAEntry.h */,
 				66D1A34117344CBF00398C4A /* CDAEntry.m */,
+				D87571EE174C056600F2612C /* CDAAllergy.h */,
+				D87571EF174C056600F2612C /* CDAAllergy.m */,
 			);
 			name = CDA;
 			sourceTree = "<group>";
@@ -340,8 +432,13 @@
 		24746F9E170DFADE0003255B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "abgoldstein industries";
+				TargetAttributes = {
+					24411BCE171312230030A358 = {
+						TestTargetID = 24746FA5170DFADE0003255B;
+					};
+				};
 			};
 			buildConfigurationList = 24746FA1170DFADE0003255B /* Build configuration list for PBXProject "HealthDataStandards" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -393,6 +490,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8108FA317F0843900734FC0 /* CDACarePlanImporter.m in Sources */,
+				D8108FA417F0843900734FC0 /* CDADischargeMedicationImporter.m in Sources */,
+				D8108FA517F0843900734FC0 /* CDAReasonForReferralImporter.m in Sources */,
+				D8108FA617F0843900734FC0 /* CDAFunctionalAndCognitiveStatusImporter.m in Sources */,
+				D8108FA717F0843900734FC0 /* CDAResultsImporter.m in Sources */,
+				D8108FA817F0843900734FC0 /* CDASocialHistoryImporter.m in Sources */,
+				D8108FA917F0843900734FC0 /* CDAVitalSignsImporter.m in Sources */,
+				D8108FA217EA4CFB00734FC0 /* CDAProcedureImporter.m in Sources */,
+				D8108FA117EA4CEE00734FC0 /* CDAProblemListImporter.m in Sources */,
 				24EAA7E5172ED15500322E9A /* GDataXMLNode.m in Sources */,
 				24EAA7E9172ED16D00322E9A /* CCDAPatientImporter.m in Sources */,
 				24EAA7F4172ED1C900322E9A /* CCDAPatientImporterTests.m in Sources */,
@@ -408,6 +514,12 @@
 				66D1A34717346A8A00398C4A /* CDAEntryFinder.m in Sources */,
 				6632F6C11736EC9600157568 /* CDATelecom.m in Sources */,
 				6632F6C51736ECA300157568 /* HDSRecord.m in Sources */,
+				D87571F1174C056600F2612C /* CDAAllergy.m in Sources */,
+				D87571F5174C07E300F2612C /* CDAAllergyImporter.m in Sources */,
+				D827D7E3174D18E000BC77A6 /* CDAEncounterImporter.m in Sources */,
+				D827D7E7174D18F300BC77A6 /* CDAImmunizationImporter.m in Sources */,
+				D827D7EB174D190900BC77A6 /* CDAMedicationImporter.m in Sources */,
+				D8BD19651773A15D008096D7 /* CDADatum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +541,21 @@
 				66D1A34617346A8A00398C4A /* CDAEntryFinder.m in Sources */,
 				6632F6C01736EC9600157568 /* CDATelecom.m in Sources */,
 				6632F6C41736ECA300157568 /* HDSRecord.m in Sources */,
+				D87571F0174C056600F2612C /* CDAAllergy.m in Sources */,
+				D87571F4174C07E300F2612C /* CDAAllergyImporter.m in Sources */,
+				D827D7E2174D18E000BC77A6 /* CDAEncounterImporter.m in Sources */,
+				D827D7E6174D18F300BC77A6 /* CDAImmunizationImporter.m in Sources */,
+				D827D7EA174D190900BC77A6 /* CDAMedicationImporter.m in Sources */,
+				D8BD19641773A15D008096D7 /* CDADatum.m in Sources */,
+				D8C4BBD517CFDF500095A309 /* CDACarePlanImporter.m in Sources */,
+				D8C4BBD817CFDF660095A309 /* CDADischargeMedicationImporter.m in Sources */,
+				D8C4BBDB17CFDF7D0095A309 /* CDAReasonForReferralImporter.m in Sources */,
+				D8C4BBDE17CFDF8B0095A309 /* CDAProblemListImporter.m in Sources */,
+				D8C4BBE117CFDF970095A309 /* CDAProcedureImporter.m in Sources */,
+				D8C4BBE417CFDFAA0095A309 /* CDAFunctionalAndCognitiveStatusImporter.m in Sources */,
+				D8C4BBE717CFDFB40095A309 /* CDAResultsImporter.m in Sources */,
+				D8C4BBEA17CFDFC10095A309 /* CDASocialHistoryImporter.m in Sources */,
+				D8C4BBED17CFDFCD0095A309 /* CDAVitalSignsImporter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,12 +572,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HealthDataStandardsTests/HealthDataStandardsTests-Prefix.pch";
 				INFOPLIST_FILE = "HealthDataStandardsTests/HealthDataStandardsTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/HealthDataStandards\"",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = HealthDataStandardsTests;
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -465,11 +591,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HealthDataStandardsTests/HealthDataStandardsTests-Prefix.pch";
 				INFOPLIST_FILE = "HealthDataStandardsTests/HealthDataStandardsTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/HealthDataStandards\"",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = HealthDataStandardsTests;
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -478,6 +604,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -499,7 +626,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -509,6 +636,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -523,7 +651,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

@@ -3,7 +3,7 @@
 //  PatientImporter
 //
 //  Created by Adam Goldstein on 4/29/13.
-//  Copyright (c) 2013 abgoldstein industries. All rights reserved.
+//  Copyright (c) 2013 The MITRE Corporation. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -15,6 +15,26 @@
 #import "CDANarrativeReferenceImporter.h"
 #import "CDAConditionImporter.h"
 #import "CDACondition.h"
+
+#import "CDAAllergyImporter.h"
+#import "CDAAllergy.h"
+
+#import "CDAImmunizationImporter.h"
+#import "CDAMedicationImporter.h"
+
+#import "CDAEncounterImporter.h"
+#import "CDAConditionImporter.h"
+#import "CDACarePlanImporter.h"
+#import "CDADischargeMedicationImporter.h"
+#import "CDAReasonForReferralImporter.h"
+#import "CDAProblemListImporter.h"
+#import "CDAProcedureImporter.h"
+
+#import "CDAFunctionalAndCognitiveStatusImporter.h"
+#import "CDAResultsImporter.h"
+#import "CDASocialHistoryImporter.h"
+#import "CDAVitalSignsImporter.h"
+#import "CDADischargeMedicationImporter.h"
 
 #import "Hl7Helper.h"
 #import "CDAHelper.h"

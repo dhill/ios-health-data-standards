@@ -3,7 +3,7 @@
 //  HealthDataStandards
 //
 //  Created by Adam on 5/3/13.
-//  Copyright (c) 2013 abgoldstein industries. All rights reserved.
+//  Copyright (c) 2013 The MITRE Corporation. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -16,5 +16,6 @@
 
 - (CDAEntryFinder *)init:(NSString *)xpath;
 - (NSArray *)entries:(GDataXMLDocument *)doc;
+
 
 @end

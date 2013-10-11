@@ -3,7 +3,7 @@
 //  PatientImporter
 //
 //  Created by Adam Goldstein on 4/29/13.
-//  Copyright (c) 2013 abgoldstein industries. All rights reserved.
+//  Copyright (c) 2013 The MITRE Corporation. All rights reserved.
 //
 
 #import "CCDAPatientImporter.h"
@@ -18,8 +18,22 @@ static NSDictionary *sectionImporters;
     static dispatch_once_t onceToken = 0;
     dispatch_once(&onceToken, ^{
         sharedInstance = [[CCDAPatientImporter alloc] init];
+        CDAEntryFinder *basic_entry = [[CDAEntryFinder alloc] init:@"DRIV"];
         sectionImporters = @{
-                             @"conditions": [[CDAConditionImporter alloc] init]
+                             @"conditions": [[CDAConditionImporter alloc] init],
+                             @"allergies": [[CDAAllergyImporter alloc] init:basic_entry],
+                             @"immunizations": [[CDAImmunizationImporter alloc] init:basic_entry],
+                             @"medications": [[CDAMedicationImporter alloc] init:basic_entry],
+                             @"problemlist": [[CDAProblemListImporter alloc] init:basic_entry],
+                             @"procedures": [[CDAProcedureImporter alloc] init:basic_entry],
+                             @"reasonforreferral": [[CDAReasonForReferralImporter alloc] init:basic_entry],
+                             @"encounters": [[CDAEncounterImporter alloc] init:basic_entry],
+                             @"careplan": [[CDACarePlanImporter alloc] init:basic_entry],
+                             @"dischargemedications": [[CDADischargeMedicationImporter alloc] init:basic_entry],
+                             @"functionalandcognitivestatus": [[CDAFunctionalAndCognitiveStatusImporter alloc] init:basic_entry],
+                             @"results": [[CDAResultsImporter alloc] init:basic_entry],
+                             @"socialhistory": [[CDASocialHistoryImporter alloc] init:basic_entry],
+                             @"vitalsigns": [[CDAVitalSignsImporter alloc] init:basic_entry]
                              };
     });
     
@@ -32,6 +46,7 @@ static NSDictionary *sectionImporters;
     [self parseDemographics:patient doc:doc];
     [self parseSections:patient doc:doc];
     [self checkForCauseOfDeath:patient];
+    //[self checkForAllergies:patient];
     
     return patient;
 }
@@ -140,10 +155,15 @@ static NSDictionary *sectionImporters;
 - (void)parseSections:(HDSRecord *)patient doc:(GDataXMLDocument *)doc {
     CDANarrativeReferenceImporter *nri = [[CDANarrativeReferenceImporter alloc] init];
     [nri buildIdMap:doc];
+    //NSLog(@"sectionImporters: %@", sectionImporters);
     for (NSString *sectionName in sectionImporters) {
-        NSArray *section = [[sectionImporters valueForKey:sectionName] createEntries:doc nri:nri];
-        [patient setValue:section forKeyPath:sectionName];
+        //NSLog(@"Now parsing section: %@", sectionName);
+        NSArray *dataArray = [[sectionImporters valueForKey:sectionName] createData:doc nri:nri];
+
+        [patient setValue:dataArray forKeyPath:sectionName];
+        //NSLog(@"made DataArray: %@", dataArray);
     }
+    
 }
 
 - (void)checkForCauseOfDeath:(HDSRecord *)patient {

@@ -3,11 +3,12 @@
 //  HealthDataStandards
 //
 //  Created by Adam Goldstein on 4/30/13.
-//  Copyright (c) 2013 abgoldstein industries. All rights reserved.
+//  Copyright (c) 2013 The MITRE Corporation. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "HDSCodedEntry.h"
+#import "CDADatum.h"
 
 @interface HDSRecord : NSObject
 
@@ -30,5 +31,22 @@
 @property (nonatomic, assign) BOOL clinicalTrialParticipant;
 
 @property (nonatomic, retain) NSArray *conditions;
+@property (nonatomic, retain) NSArray *allergies;
+@property (nonatomic, retain) NSArray *immunizations;
+@property (nonatomic, retain) NSArray *medications;
+@property (nonatomic, retain) NSArray *problemlist;
+@property (nonatomic, retain) NSArray *procedures;
+@property (nonatomic, retain) NSArray *reasonforreferral;
+@property (nonatomic, retain) NSArray *encounters;
+@property (nonatomic, retain) NSArray *careplan;
+@property (nonatomic, retain) NSArray *dischargemedications;
+@property (nonatomic, retain) NSArray *functionalandcognitivestatus;
+@property (nonatomic, retain) NSArray *results;
+@property (nonatomic, retain) NSArray *socialhistory;
+@property (nonatomic, retain) NSArray *vitalsigns;
+
+@property (nonatomic, retain) CDADatum *CDAroot;
+
++(HDSRecord *)generateHDSRecordFromCCDA:(NSString *)fileName;
 
 @end

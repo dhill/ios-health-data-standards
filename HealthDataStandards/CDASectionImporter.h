@@ -3,7 +3,7 @@
 //  HealthDataStandards
 //
 //  Created by Adam on 5/3/13.
-//  Copyright (c) 2013 abgoldstein industries. All rights reserved.
+//  Copyright (c) 2013 The MITRE Corporation. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -11,6 +11,7 @@
 #import "CDANarrativeReferenceImporter.h"
 #import "CDAEntryFinder.h"
 #import "CDAEntry.h"
+#import "CDADatum.h"
 
 @interface CDASectionImporter : NSObject
 
@@ -33,5 +34,10 @@
 - (NSArray *)createEntries:(GDataXMLDocument *)doc nri:(CDANarrativeReferenceImporter *)nri;
 
 - (CDAEntry *)createEntry:(GDataXMLElement *)entryElement nri:(CDANarrativeReferenceImporter *)nri;
+
+- (NSArray *)createData:(GDataXMLDocument *)doc nri:(CDANarrativeReferenceImporter *)nri;
+
+- (CDADatum *)createDatumWithNri:(CDANarrativeReferenceImporter *)nri entryElement:(GDataXMLElement *)entryElement;
+//- (CDADatum *)createChildDatum:(GDataXMLDocument *)doc nri:(CDANarrativeReferenceImporter *)nri entryElement:(GDataXMLNode *)entryElement;
 
 @end

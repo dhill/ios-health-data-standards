@@ -3,7 +3,7 @@
 //  HealthDataStandards
 //
 //  Created by Adam Goldstein on 4/30/13.
-//  Copyright (c) 2013 abgoldstein industries. All rights reserved.
+//  Copyright (c) 2013 The MITRE Corporation. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -3,7 +3,7 @@
 //  PatientImporterTests
 //
 //  Created by Adam Goldstein on 4/29/13.
-//  Copyright (c) 2013 abgoldstein industries. All rights reserved.
+//  Copyright (c) 2013 The MITRE Corporation. All rights reserved.
 //
 
 #import "CCDAPatientImporterTests.h"
@@ -33,7 +33,15 @@
     }
     
     CCDAPatientImporter *importer = [CCDAPatientImporter sharedInstance];
-    [importer parseCcda:doc];
+    HDSRecord *patient = [importer parseCcda:doc];
+    
+    NSLog(@"immunizations: %@", patient.immunizations);
+    
+    for (CDADatum *immunization in patient.immunizations) {
+        [immunization printAllXML];
+    }
+    
+    
     STAssertTrue(true, @"This is always true");
 }
 
